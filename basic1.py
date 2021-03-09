@@ -42,7 +42,7 @@ elif choice_p1 == "paper" and choice_p2 != "scissors":
     print ("Player 1 wins!")
 elif choice_p1 == "scissors" and choice_p2 != "rock":
     print ("Player 1 wins!")
-elif choice_p1 == choice_p2
+elif choice_p1 == choice_p2:
 	print ("It's a tie!")
 else:
     print ("Player 2 wins!")
