@@ -42,6 +42,13 @@ elif choice_p1 == "paper" and choice_p2 != "scissors":
     print ("Player 1 wins!")
 elif choice_p1 == "scissors" and choice_p2 != "rock":
     print ("Player 1 wins!")
+elif choice_p1 == choice_p2
+	print ("It's a tie!")
 else:
     print ("Player 2 wins!")
 
+
+#this one works when each player follow the rules.
+#Tie situation and player 1's winning options are defined. In any other situation player 2 wins.
+#But if players don't enter rock, paper, or scissors; still player 2 wins because that falls into else category
+#I should learn a way to force choices between these 3!
